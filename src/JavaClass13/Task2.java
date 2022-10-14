@@ -7,9 +7,11 @@ public class Task2 {
 
 
         String str = "TYgdsbvfjkdsHJGJ12423GHJhghj$%^*&^%";
-        String str2;
-        str2 = str.replaceAll("[a-zA-Z0-9]", "");
-        System.out.println(str2);
-        System.out.println(str2.length());
+        str = str.replaceAll("[^a-zA-Z0-9]", "");
+        System.out.println(str);
+        System.out.println(str.length());
+
+
+
     }
 }
